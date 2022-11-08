@@ -1,0 +1,13 @@
+name: 'Hola Mundo'
+description: 'Saluda a alguien y guarda el tiempo'
+inputs:
+  persona-a-saludar:  # id of input
+    description: 'A quien saludar'
+    required: true
+    default: 'Dante'
+outputs:
+  tiempo: # id of output
+    description: 'El tiempo en el que te saludé'
+runs:
+  using: 'node18'
+  main: 'index.js'
