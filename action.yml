@@ -1,4 +1,4 @@
-name: 'Hola Mundo'
+name: 'Hola-Mundo'
 description: 'Saluda a alguien y guarda el tiempo'
 inputs:
   persona-a-saludar:  # id of input
